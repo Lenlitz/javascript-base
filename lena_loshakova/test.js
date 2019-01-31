@@ -1,8 +1,6 @@
-document.write("<table>");
-for (var i = 1; i<= 10; i++){
-    for (var j = 1; j<= 10; j++){
-    document.write("<td>"+ (i * j) + "<td/>");
-    }
-   // document.write("<tr/>"); !!!!!
-    document.write("<table/>");
-    }
+var a = +prompt("Enter the first number :");
+var b = +prompt("Enter the second number :");
+var functionBody = prompt("Enter the body :");
+
+var c = new Function( 'a, b', functionBody );
+c(a, b)
