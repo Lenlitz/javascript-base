@@ -10,7 +10,7 @@ function runMyApp(){
     askNextCommand();
 }
 function showMessage(){
-   // document.write("Hello!");
+ document.write("Hello!");
     var WelcomeText = `
      <div class = "container"> 
      <p>Hello</p>
